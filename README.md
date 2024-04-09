@@ -28,10 +28,10 @@ To summarize the findings when developing the appropriate model, I have collated
 
 **1. Underfitted Model**
   - Accuracy: 80%
-  - Loss: 65%
+  - Loss: 65% <br>
 **2. Overfitted Model**
   - Accuracy: 95%
-  - Loss: 30-35%
+  - Loss: 30-35% <br>
 **3. Dropout Regularized Model**
   - Accuracy: 95%
   - Loss: 20%
