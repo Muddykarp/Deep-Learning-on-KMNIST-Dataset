@@ -5,7 +5,7 @@
 This repository contains the final assignment and project for Goldsmiths, University of London module CM3015.
 
 ## Introduction
-For this project, the dataset used to undergo deep learning is known as Kuzushiji-MNIST (or KMNIST) from TensorFlow datasets. This dataset is utilized because it has a large-enough dataset for training and testing, with a total of 70,000 grayscale images. This dataset is also a drop-in replacement for the MNIST dataset. [1]
+For this project, the dataset used to undergo deep learning is known as Kuzushiji-MNIST (or KMNIST) from TensorFlow datasets. This dataset is utilized because it has a large-enough dataset for training and testing, with a total of 70,000 grayscale images. This dataset is also a drop-in replacement for the MNIST dataset.
 
 KMNIST is a dataset consisting of Kuzushiji characters, which refers to ancient cursive Japanese characters or scripts in old Japanese texts and manuscripts. The cursive nature of the characters makes the deep learning and classification of the characters difficult, as there are multiple variations for every character. This means that the model to be developed for this classification problem have to be more robust than that of the MNIST dataset. With only 70,000 images, the dataset may not contain every Kuzushiji character and may reflect certain inaccuracies if comparing the results against a different Kuzushiji dataset.
 
@@ -27,8 +27,8 @@ This project aims to use deep learning to classify and predict Kuzushiji charact
 To summarize the findings when developing the appropriate model, I have collated them below. It is important to note that solely using accuracy and loss as the primary metric can miss out on key details such as underfitting or overfitting of the model. The 'combined regularized model' performed the best without underfitting or overfitting. >
 
 **Underfitted Model**
-Accuracy: 80%
-Loss: 65%
+- Accuracy: 80%
+- Loss: 65%
 **Overfitted Model**
 Accuracy: 95%
 Loss: 30-35%
