@@ -12,9 +12,9 @@ KMNIST is a dataset consisting of Kuzushiji characters, which refers to ancient 
 ## Goal
 This project aims to use deep learning to classify and predict Kuzushiji characters with the use of Kuzushiji-MNIST (KMNIST) dataset. This is achieved by developing a sufficiently robust neural network model that can accurately classify Kuzushiji characters with high accuracy, f1-score and cohen's kappa score.
 
-**Accuracy** represents the number of correct classifications over the total number of classification attempts, and the goal is to achieve >80% accuracy.
-**F1-Score** indicates the overall performance of the classification model and can reflect on how it can correctly identify positive cases while minimizing false positives and negatives. The goal is to achieve >80% f1-score.
-**Cohen's Kappa Score** indicates the classification model's accuracy, and the goal is to achieve >80% score.
+**Accuracy** represents the number of correct classifications over the total number of classification attempts, and the goal is to achieve >80% accuracy. <br>
+**F1-Score** indicates the overall performance of the classification model and can reflect on how it can correctly identify positive cases while minimizing false positives and negatives. The goal is to achieve >80% f1-score. <br>
+**Cohen's Kappa Score** indicates the classification model's accuracy, and the goal is to achieve >80% score. <br>
 
 ## Approach
 - Conduct data split on the dataset.
@@ -26,22 +26,22 @@ This project aims to use deep learning to classify and predict Kuzushiji charact
 ## Results and Evaluation
 To summarize the findings when developing the appropriate model, I have collated them below. It is important to note that solely using accuracy and loss as the primary metric can miss out on key details such as underfitting or overfitting of the model. The 'combined regularized model' performed the best without underfitting or overfitting. >
 
-**1. Underfitted Model**
+1. Underfitted Model
   - Accuracy: 80%
   - Loss: 65% <br>
-**2. Overfitted Model**
+2. Overfitted Model
   - Accuracy: 95%
   - Loss: 30-35% <br>
-**3. Dropout Regularized Model**
+3. Dropout Regularized Model
   - Accuracy: 95%
   - Loss: 20%
-**4. L1/L2 Regularized Model**
+4. L1/L2 Regularized Model
   - Accuracy: 90%
   - Loss: 45%
-**5. Combined Regularized Model**
+5. Combined Regularized Model
   - Accuracy: 95%
   - Loss: 30%
-**6. Final Model**
+6. Final Model
   - Accuracy: 88%
   - Loss: 68%
 
