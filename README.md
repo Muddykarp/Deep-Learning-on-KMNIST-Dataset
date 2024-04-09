@@ -27,23 +27,23 @@ This project aims to use deep learning to classify and predict Kuzushiji charact
 To summarize the findings when developing the appropriate model, I have collated them below. It is important to note that solely using accuracy and loss as the primary metric can miss out on key details such as underfitting or overfitting of the model. The 'combined regularized model' performed the best without underfitting or overfitting. >
 
 **1. Underfitted Model**
-- Accuracy: 80%
-- Loss: 65%
+  - Accuracy: 80%
+  - Loss: 65%
 **2. Overfitted Model**
-- Accuracy: 95%
-- Loss: 30-35%
+  - Accuracy: 95%
+  - Loss: 30-35%
 **3. Dropout Regularized Model**
-- Accuracy: 95%
-- Loss: 20%
+  - Accuracy: 95%
+  - Loss: 20%
 **4. L1/L2 Regularized Model**
-- Accuracy: 90%
-- Loss: 45%
+  - Accuracy: 90%
+  - Loss: 45%
 **5. Combined Regularized Model**
-- Accuracy: 95%
-- Loss: 30%
+  - Accuracy: 95%
+  - Loss: 30%
 **6. Final Model**
-- Accuracy: 88%
-- Loss: 68%
+  - Accuracy: 88%
+  - Loss: 68%
 
 Finalized model is based on the 'combined regularized model' with the result of around 88% accuracy, f1-score, and cohen kappa's score. All these metrics have exceeded the goal stated above of having at least 80%. This means that the classification deep learning model developed for the KMNIST dataset meets the goals and does well in classifying the images. It is also important to state that the loss for this model is high, and the development method for the final model may not be optimal. The high loss value could be caused by many different factors and is difficult to evaluate on its own. Further development along with use of other methods and models can bring a more comprehensive evaluation to this project.
 
